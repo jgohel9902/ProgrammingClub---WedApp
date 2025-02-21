@@ -1,0 +1,164 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #E74C3C; /* Red */
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: darkblue; /* Blue */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: darkblue /* Darker blue */
+    
+}
+
+button:active {
+    transform: scale(0.98); /* Button press effect */
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    border-color: darkblue; /* Blue */
+    outline: none;
+}
+
+/* Error message styling */
+.error-message {
+    color: #E74C3C; /* Red */
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: #2ECC71; /* Green */
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Link Styling */
+a {
+    color: darkblue; /* Blue */
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header and Footer */
+header {
+    background-color: #E74C3C; /* Red */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #34495E; /* Dark Gray */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Centered Registration Form */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Center vertically */
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Fixed width for consistency */
+}
+
+/* Index Page Custom Styles */
+.index-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+.index-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.index-card h2 {
+    color: #3498DB; /* Blue */
+}
+
+/* Buttons for index page */
+.index-button {
+    background-color: #3498DB; /* Blue */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.index-button:hover {
+    background-color: #2980B9; /* Darker blue */
+}

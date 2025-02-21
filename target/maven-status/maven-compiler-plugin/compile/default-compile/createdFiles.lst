@@ -1,0 +1,6 @@
+club\data\BookIO.class
+com\mycompany\jghpclub\JAXRSConfiguration.class
+club\admin\JGHPDisplayBooksServlet.class
+com\mycompany\jghpclub\resources\JavaEE8Resource.class
+club\business\Book.class
+club\admin\JGHPAddBookServlet.class
